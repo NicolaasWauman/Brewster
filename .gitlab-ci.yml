@@ -3,7 +3,7 @@ apply:
   stage: deploy
   image: "nodered/node-red:1.1.3"
   environment:
-    name: production
+    name: Development
   variables:
     TILLER_NAMESPACE: gitlab-managed-apps
     GITLAB_MANAGED_APPS_FILE: $CI_PROJECT_DIR/.gitlab/managed-apps/config.yaml
