@@ -3258,8 +3258,8 @@
         "syntax": "mustache",
         "template": "[{{payload}}]",
         "output": "str",
-        "x": 1480,
-        "y": 260,
+        "x": 1500,
+        "y": 240,
         "wires": [
             []
         ]
