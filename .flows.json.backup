@@ -7,9 +7,16 @@
         "info": ""
     },
     {
-        "id": "bfaa1b94.62bbf8",
+        "id": "7c983f7.38453c",
         "type": "tab",
-        "label": "Flow 1",
+        "label": "INPUT HARDWARE",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "ba97d22d.3df94",
+        "type": "tab",
+        "label": "Button Press vs. Hold",
         "disabled": false,
         "info": ""
     },
@@ -32,7 +39,7 @@
         "tab": "818280f8.fbf2d",
         "order": 1,
         "disp": true,
-        "width": 8,
+        "width": 7,
         "collapse": false
     },
     {
@@ -79,6 +86,7 @@
         "type": "ui_tab",
         "name": "Home",
         "icon": "dashboard",
+        "order": 2,
         "disabled": false,
         "hidden": false
     },
@@ -97,6 +105,7 @@
         "type": "ui_tab",
         "name": "Home",
         "icon": "dashboard",
+        "order": 3,
         "disabled": false,
         "hidden": false
     },
@@ -127,17 +136,17 @@
         "tab": "818280f8.fbf2d",
         "order": 6,
         "disp": true,
-        "width": 8,
+        "width": 7,
         "collapse": true
     },
     {
         "id": "4da78f89.fde46",
         "type": "ui_group",
-        "name": "BEDIENING",
+        "name": "BEDIENING VERWARMING",
         "tab": "818280f8.fbf2d",
         "order": 3,
         "disp": true,
-        "width": 5,
+        "width": "7",
         "collapse": true
     },
     {
@@ -145,6 +154,7 @@
         "type": "ui_tab",
         "name": "EFFORT BREWERY",
         "icon": "dashboard",
+        "order": 1,
         "disabled": false,
         "hidden": false
     },
@@ -252,137 +262,516 @@
         "tab": "818280f8.fbf2d",
         "order": 2,
         "disp": true,
-        "width": 8,
+        "width": 7,
         "collapse": false
     },
     {
-        "id": "2e723b0e.16ca54",
+        "id": "28090666.451f6a",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "27527a91.1832fe",
+        "order": 1,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "54c0ebd2.41c724",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "27527a91.1832fe",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9f81efc6.f0f61",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "27527a91.1832fe",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "f3ed8071.65d64",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "27527a91.1832fe",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e7689b16.221cb8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "27527a91.1832fe",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "eb52635.51b92a",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "27527a91.1832fe",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "27b65cf1.24c8e4",
+        "type": "ui_group",
+        "name": "HLS demo",
+        "tab": "787ed714.674938",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "787ed714.674938",
+        "type": "ui_tab",
+        "name": "Code",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d8efe9d4.d63eb8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "66b6f4fd.14bd8c",
         "order": 2,
-        "width": 8,
+        "width": 7,
         "height": 1
     },
     {
-        "id": "cbd9a454.b45818",
+        "id": "a30e7d89.ac8ea",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "66b6f4fd.14bd8c",
         "order": 3,
-        "width": 8,
+        "width": 7,
         "height": 1
     },
     {
-        "id": "f0dc702a.fe5eb",
+        "id": "3d099e8e.936472",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "66b6f4fd.14bd8c",
         "order": 5,
-        "width": 8,
+        "width": 7,
         "height": 1
     },
     {
-        "id": "77c5b29a.0930fc",
+        "id": "bd9fe447.72f0a8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "66b6f4fd.14bd8c",
         "order": 6,
-        "width": 8,
+        "width": 7,
         "height": 1
     },
     {
-        "id": "12e3d92c.e1cc37",
+        "id": "e36c52c8.11648",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "5ce5aba2.860bc4",
+        "order": 1,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "bb3943cb.da7ad",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "5ce5aba2.860bc4",
+        "order": 3,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "d756e51e.305938",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "5ce5aba2.860bc4",
+        "order": 4,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "a98afb8c.214bb8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "5ce5aba2.860bc4",
+        "order": 5,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "bc60b985.bccfe8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "5ce5aba2.860bc4",
+        "order": 7,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "f24fd9cf.58d258",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "5ce5aba2.860bc4",
+        "order": 8,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "e5912d57.97433",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "5ce5aba2.860bc4",
+        "order": 9,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "36e17243.48389e",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2e0917fb.c43998",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "48a596a1.535928",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "de6a5971.af6c78",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6cb5fbf5.8848e4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "cd66acff.a5476",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "90b8ce63.46da9",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1ba95e8d.d27c51",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "600dfdd6.d84364",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "cbe37f60.c3e06",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "23e0ad10.f91412",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "fb4cb626.a2d3f8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c6b55c3c.6ba16",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f4111193.ddb97",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4171c8e8.69c678",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ec62f6b2.1887c8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 18,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f553a6b0.8c48f8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 20,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "568fbaa0.273cb4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 22,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "58fde7f6.ea5658",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 23,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9a847b2a.51be58",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 24,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8aff4891.826b58",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 25,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "af71ef7e.6637c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 26,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e6f26987.12c698",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 27,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "efc5274c.9d4568",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 28,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "33435056.1a82b",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 29,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "b7a2f12f.c133d",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 31,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d3023caf.f4bcd",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 33,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a91a759b.cbfa78",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 34,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "88c0abe6.28ff38",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 35,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "31366222.a822be",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 36,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "dc3aa6cb.bc2d48",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 37,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7ab7af2f.fb833",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 38,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d19beeee.5bccb",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4da78f89.fde46",
+        "order": 39,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "81f79856.3520c8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "66f95b6e.2ba5d4",
         "order": 2,
-        "width": 8,
+        "width": 5,
         "height": 1
     },
     {
-        "id": "71260828.8f7c08",
+        "id": "8eafeb2.0455318",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "5ce5aba2.860bc4",
+        "group": "66f95b6e.2ba5d4",
         "order": 3,
-        "width": 8,
+        "width": 5,
         "height": 1
     },
     {
-        "id": "b47bd7af.c7f2c8",
+        "id": "411dcb90.c0b624",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "5ce5aba2.860bc4",
+        "group": "66f95b6e.2ba5d4",
+        "order": 4,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "bf9cd3ed.17e77",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "66f95b6e.2ba5d4",
         "order": 5,
-        "width": 8,
-        "height": 1
-    },
-    {
-        "id": "858be082.272f2",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "5ce5aba2.860bc4",
-        "order": 6,
-        "width": 8,
-        "height": 1
-    },
-    {
-        "id": "5d1204da.67444c",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "4da78f89.fde46",
-        "order": 3,
         "width": 5,
         "height": 1
     },
     {
-        "id": "bc44bec9.fe28d",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "4da78f89.fde46",
-        "order": 4,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "349a65ac.64c40a",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "4da78f89.fde46",
-        "order": 7,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "a1e7ca52.d0c2d8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "4da78f89.fde46",
-        "order": 8,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "5d297d91.4c0874",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "66f95b6e.2ba5d4",
-        "order": 3,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "74e5c710.e13778",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "66f95b6e.2ba5d4",
-        "order": 4,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "39981e21.6fc892",
+        "id": "d6d25250.cf983",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "66f95b6e.2ba5d4",
@@ -391,7 +780,7 @@
         "height": 1
     },
     {
-        "id": "1f5ee2a5.26db5d",
+        "id": "ba6e83a6.85fe9",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "66f95b6e.2ba5d4",
@@ -400,7 +789,25 @@
         "height": 1
     },
     {
-        "id": "4acb26d8.d0c748",
+        "id": "b1eed5ba.f27598",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "66f95b6e.2ba5d4",
+        "order": 9,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "e48371de.21c0e",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "58c426a1.17a658",
+        "order": 2,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "5c930a14.a076e4",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "58c426a1.17a658",
@@ -409,7 +816,7 @@
         "height": 1
     },
     {
-        "id": "e7243765.7c8f48",
+        "id": "c2c154f5.e024e8",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "58c426a1.17a658",
@@ -418,7 +825,16 @@
         "height": 1
     },
     {
-        "id": "7cf50da2.b7a094",
+        "id": "3df83348.164d3c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "58c426a1.17a658",
+        "order": 5,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "34b70797.e78858",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "58c426a1.17a658",
@@ -427,7 +843,7 @@
         "height": 1
     },
     {
-        "id": "4b8b89a1.6a7198",
+        "id": "95a5333a.3e615",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "58c426a1.17a658",
@@ -436,7 +852,7 @@
         "height": 1
     },
     {
-        "id": "bfc97111.b014",
+        "id": "bb309e34.8ac3c",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "58c426a1.17a658",
@@ -445,12 +861,21 @@
         "height": 1
     },
     {
-        "id": "40d75369.eacc4c",
+        "id": "73f20abb.5b6f94",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "720d2ed2.786f8",
         "order": 4,
-        "width": 8,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "9e84783.4b86988",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "720d2ed2.786f8",
+        "order": 6,
+        "width": 7,
         "height": 1
     },
     {
@@ -508,8 +933,8 @@
         "y": 680,
         "wires": [
             [
-                "21d6c68f.c0e00a",
-                "642e5062.3ebd48"
+                "642e5062.3ebd48",
+                "21d6c68f.c0e00a"
             ]
         ]
     },
@@ -528,7 +953,7 @@
         "wires": [
             [
                 "35ea7af.413ec06",
-                "e39675b0.f178c"
+                "576c80e1.62114"
             ]
         ]
     },
@@ -543,23 +968,6 @@
         "retentionPolicy": "",
         "x": 830,
         "y": 580,
-        "wires": []
-    },
-    {
-        "id": "e39675b0.f178c",
-        "type": "debug",
-        "z": "8dd021bb.b57a4",
-        "name": "Debug",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1010,
-        "y": 820,
         "wires": []
     },
     {
@@ -585,7 +993,7 @@
         "seg1": "50",
         "seg2": "78",
         "x": 700,
-        "y": 660,
+        "y": 640,
         "wires": []
     },
     {
@@ -594,7 +1002,7 @@
         "z": "8dd021bb.b57a4",
         "name": "",
         "group": "5ce5aba2.860bc4",
-        "order": 1,
+        "order": 2,
         "width": 0,
         "height": 0,
         "label": "OPWARMVAT",
@@ -663,7 +1071,7 @@
         "z": "8dd021bb.b57a4",
         "name": "",
         "group": "5ce5aba2.860bc4",
-        "order": 4,
+        "order": 6,
         "width": 0,
         "height": 0,
         "label": "MAISCHVAT MOUT",
@@ -760,7 +1168,7 @@
         "z": "8dd021bb.b57a4",
         "name": "",
         "group": "5ce5aba2.860bc4",
-        "order": 7,
+        "order": 10,
         "width": 0,
         "height": 0,
         "label": "MAISCHVAT WORT",
@@ -833,7 +1241,7 @@
         "label": "Pump",
         "tooltip": "",
         "group": "4da78f89.fde46",
-        "order": 5,
+        "order": 19,
         "width": 0,
         "height": 0,
         "passthru": true,
@@ -848,7 +1256,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 670,
+        "x": 1290,
         "y": 980,
         "wires": [
             [
@@ -918,7 +1326,7 @@
         "label": "Heater",
         "tooltip": "",
         "group": "4da78f89.fde46",
-        "order": 9,
+        "order": 30,
         "width": 0,
         "height": 0,
         "passthru": true,
@@ -933,7 +1341,7 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 680,
+        "x": 1290,
         "y": 1040,
         "wires": [
             [
@@ -1000,8 +1408,7 @@
                 "e15415b1.7b4b2",
                 "5664e3de.fc6a74",
                 "81ee9739.d9875",
-                "a55c7441.94ff9",
-                "576c80e1.62114"
+                "a55c7441.94ff9"
             ]
         ]
     },
@@ -1087,7 +1494,7 @@
         "type": "ui_text",
         "z": "8dd021bb.b57a4",
         "group": "35700b71.03d264",
-        "order": 0,
+        "order": 1,
         "width": 0,
         "height": 0,
         "name": "ProcessStep",
@@ -1103,7 +1510,7 @@
         "type": "ui_text",
         "z": "8dd021bb.b57a4",
         "group": "35700b71.03d264",
-        "order": 0,
+        "order": 2,
         "width": 0,
         "height": 0,
         "name": "ProcessAuto",
@@ -1125,7 +1532,7 @@
         "initialize": "",
         "finalize": "",
         "x": 910,
-        "y": 1080,
+        "y": 1100,
         "wires": [
             [
                 "5d0a925.e621f6c"
@@ -1194,8 +1601,8 @@
         "group": "66b6f4fd.14bd8c",
         "voice": "Google UK English Male",
         "always": "",
-        "x": 1130,
-        "y": 1140,
+        "x": 1080,
+        "y": 1100,
         "wires": []
     },
     {
@@ -1206,8 +1613,8 @@
         "group": "66b6f4fd.14bd8c",
         "voice": "Google UK English Male",
         "always": "",
-        "x": 1110,
-        "y": 1220,
+        "x": 1060,
+        "y": 1200,
         "wires": []
     },
     {
@@ -1218,8 +1625,8 @@
         "props": [
             {
                 "p": "recipe",
-                "v": "{\"name\":\"Dummy Recipe\",\"ingredient_params\":{\"hop\":\"100g tarzannekes\",\"output\":\"80L yield\"},\"steps\":[{\"name\":\"Ruststap\",\"stepconditions\":{},\"outputs\":{\"pump\":0,\"heater\":0,\"valve\":0}},{\"name\":\"Vulstap\",\"stepconditions\":{\"time\":2},\"outputs\":{\"pump\":1,\"heater\":0,\"valve\":1}},{\"name\":\"Opwarmfase\",\"stepconditions\":{\"T1\":30,\"time\":3},\"outputs\":{\"pump\":1,\"heater\":1,\"valve\":1}},{\"name\":\"Maischfase - step 1\",\"stepconditions\":{\"T1\":40,\"time\":4},\"outputs\":{\"pump\":1,\"heater\":1,\"valve\":1}},{\"name\":\"Maischfase - step 2\",\"stepconditions\":{\"T1\":50,\"time\":5},\"outputs\":{\"pump\":1,\"heater\":1,\"valve\":1}}]}",
-                "vt": "json"
+                "v": "{\"doel\":\"\",\"ingredient_params\":{\"hop\":\"100g tarzannekes\",\"output\":\"80L yield\"},\"steps\":[{\"name\":\"Ruststap\",\"stepconditions\":{},\"outputs\":{\"pump\":0,\"heater\":0,\"valve\":0}},{\"name\":\"Vulstap\",\"stepconditions\":{\"time\":2},\"outputs\":{\"pump\":1,\"heater\":0,\"valve\":1}},{\"name\":\"Opwarmfase\",\"stepconditions\":{\"T1\":30,\"time\":3},\"outputs\":{\"pump\":1,\"heater\":1,\"valve\":1}},{\"name\":\"Maischfase - step 1\",\"stepconditions\":{\"T1\":40,\"time\":4},\"outputs\":{\"pump\":1,\"heater\":1,\"valve\":1}},{\"name\":\"Maischfase - step 2\",\"stepconditions\":{\"T1\":50,\"time\":5},\"outputs\":{\"pump\":1,\"heater\":1,\"valve\":1}}]}",
+                "vt": "msg"
             }
         ],
         "repeat": "",
@@ -1227,8 +1634,9 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 290,
-        "y": 200,
+        "payloadType": "str",
+        "x": 1490,
+        "y": 560,
         "wires": [
             [
                 "f7968f84.15d858"
@@ -1240,20 +1648,22 @@
         "type": "function",
         "z": "8dd021bb.b57a4",
         "name": "RecipeProcessor",
-        "func": "var stepcondition = false;\nvar output = {};\n\n\n\n\n// check if stepconditions are met for proceeding to next step:\nif (msg.process.currentstep < msg.process.totalsteps -1 && !msg.process.finished){\n    stepcondition = true;\n}\nelse {\n    stepcondition = false;\n}\n\n// if last stap is not reached and process is not yet finished: go to next step\nif (stepcondition){\n    msg.process.currentstep++;\n    step = msg.process.currentstep;\n    \n    output = msg.recipe.steps[step].outputs;\n    msg.test = output;//node.send([null,null,test]);\n /*   for (var i = 0; i < msg.recipe.steps[step].outputs.length; i++) {\n        node.send([null,null,msg.recipe.steps[step].outputs[i]]);\n    }*/\n    \n    stepname = { \"stepname\" : msg.recipe.steps[step].name}\n    if (msg.recipe.steps[step].stepconditions.hasOwnProperty(\"time\")){\n        msg.delay = msg.recipe.steps[step].stepconditions.time * 1000; //conversion to milliseconds\n    }\n    else{\n        msg.delay = 0;\n    }\n    node.send([msg,stepname,msg]);\n}\nelse{\n    msg.process.finished = true;\n    msg.process.currentstep = 0;\n    msg.delay = 0;\n    node.send([msg,stepname,null]);\n}\nreturn null;\n\n\n\n\n\n    \n\n\n\n\n\n\n\n\n\n",
+        "func": "var stepcondition = false;\nvar output = {};\n\n\n\n\n// check if stepconditions are met for proceeding to next step:\nif (msg.process.currentstep < msg.process.totalsteps -1 && !msg.process.finished){\n    stepcondition = true;\n}\nelse {\n    stepcondition = false;\n}\n\n// if last stap is not reached and process is not yet finished: go to next step\nif (stepcondition){\n    msg.process.currentstep++;\n    step = msg.process.currentstep;\n    \n    output = msg.recipe.steps[step].outputs;\n    msg.test = output;//node.send([null,null,test]);\n /*   for (var i = 0; i < msg.recipe.steps[step].outputs.length; i++) {\n        node.send([null,null,msg.recipe.steps[step].outputs[i]]);\n    }*/\n    \n  /*  node.send([null,output,null] /*2de output gaat naar de UI*/*/\n    \n    \n    stepname = { \"stepname\" : msg.recipe.steps[step].name} /*stepname is het de key, recipe.STEPS[STEP].doel */\n    if (msg.recipe.steps[step].stepconditions.hasOwnProperty(\"time\")){\n        msg.delay = msg.recipe.steps[step].stepconditions.time * 1000; //conversion to milliseconds\n    }\n    else{\n        msg.delay = 0;\n    }\n    node.send([msg,stepname,msg]);\n}\nelse{\n    msg.process.finished = true;\n    msg.process.currentstep = 0;\n    msg.delay = 0;\n    node.send([msg,stepname,null]);\n}\nreturn null;\n\n\n\n\n\n    \n\n\n\n\n\n\n\n\n\n",
         "outputs": 3,
-        "noerr": 0,
+        "noerr": 1,
         "initialize": "",
         "finalize": "",
-        "x": 730,
-        "y": 200,
+        "libs": [],
+        "x": 1930,
+        "y": 560,
         "wires": [
             [
                 "6417aee.d17c65",
                 "4050d57e.fc288c"
             ],
             [
-                "35e5f233.b0a366"
+                "35e5f233.b0a366",
+                "a0fdc3dd.47972"
             ],
             [
                 "f366f063.e39478"
@@ -1273,7 +1683,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 950,
+        "x": 2110,
         "y": 300,
         "wires": []
     },
@@ -1289,8 +1699,8 @@
         "label": "text",
         "format": "{{msg.recipe.name}}",
         "layout": "row-spread",
-        "x": 970,
-        "y": 120,
+        "x": 2410,
+        "y": 340,
         "wires": []
     },
     {
@@ -1308,8 +1718,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": true,
-        "x": 740,
-        "y": 320,
+        "x": 1940,
+        "y": 680,
         "wires": [
             [
                 "4fad69.f62fba98"
@@ -1321,14 +1731,14 @@
         "type": "function",
         "z": "8dd021bb.b57a4",
         "name": "InitializeProcess",
-        "func": "var allsteps = {};\nallsteps = Object.keys(msg.recipe.steps).length;\nmsg.process = {\"currentstep\" : 0, \"totalsteps\" : allsteps, \"finished\" : false}\nnode.send(msg);",
+        "func": "var allsteps = {};\nallsteps = Object.keys(msg.recipe.steps).length;\nmsg.process = {currentstep : 0, totalsteps : allsteps, finished : false}\nnode.send(msg);",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 470,
-        "y": 200,
+        "x": 1670,
+        "y": 560,
         "wires": [
             [
                 "4fad69.f62fba98"
@@ -1347,8 +1757,8 @@
         "label": "StepName",
         "format": "{{stepname}}",
         "layout": "row-spread",
-        "x": 970,
-        "y": 200,
+        "x": 2410,
+        "y": 380,
         "wires": []
     },
     {
@@ -1357,13 +1767,13 @@
         "z": "8dd021bb.b57a4",
         "name": "",
         "group": "66f95b6e.2ba5d4",
-        "order": 2,
+        "order": 1,
         "width": 0,
         "height": 0,
         "gtype": "donut",
         "title": "KRAAN 1",
         "label": "units",
-        "format": "{{value}}",
+        "format": "{{msg.kraan1}}",
         "min": 0,
         "max": "1",
         "colors": [
@@ -1373,40 +1783,9 @@
         ],
         "seg1": "",
         "seg2": "",
-        "x": 1160,
-        "y": 1680,
+        "x": 1540,
+        "y": 1380,
         "wires": []
-    },
-    {
-        "id": "cca0e5fc.3857a8",
-        "type": "ui_switch",
-        "z": "8dd021bb.b57a4",
-        "name": "",
-        "label": "KRAAN 1",
-        "tooltip": "",
-        "group": "66f95b6e.2ba5d4",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "",
-        "style": "",
-        "onvalue": "1",
-        "onvalueType": "num",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "0",
-        "offvalueType": "num",
-        "officon": "",
-        "offcolor": "",
-        "x": 980,
-        "y": 1680,
-        "wires": [
-            [
-                "9e1dc1da.8b0db"
-            ]
-        ]
     },
     {
         "id": "22f02ae1.775f26",
@@ -1420,7 +1799,7 @@
         "gtype": "donut",
         "title": "KRAAN 2",
         "label": "units",
-        "format": "{{value}}",
+        "format": "{{msg.kraan2}}",
         "min": 0,
         "max": "1",
         "colors": [
@@ -1428,42 +1807,11 @@
             "#e6e600",
             "#ca3838"
         ],
-        "seg1": "",
+        "seg1": "0",
         "seg2": "",
-        "x": 1160,
-        "y": 1720,
+        "x": 1540,
+        "y": 1420,
         "wires": []
-    },
-    {
-        "id": "2000a99d.802296",
-        "type": "ui_switch",
-        "z": "8dd021bb.b57a4",
-        "name": "",
-        "label": "KRAAN 2",
-        "tooltip": "",
-        "group": "66f95b6e.2ba5d4",
-        "order": 5,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "",
-        "style": "",
-        "onvalue": "1",
-        "onvalueType": "num",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "0",
-        "offvalueType": "num",
-        "officon": "",
-        "offcolor": "",
-        "x": 980,
-        "y": 1720,
-        "wires": [
-            [
-                "22f02ae1.775f26"
-            ]
-        ]
     },
     {
         "id": "7b400ebf.bb23",
@@ -1477,7 +1825,7 @@
         "gtype": "donut",
         "title": "KRAAN 3",
         "label": "units",
-        "format": "{{value}}",
+        "format": "{{msg.kraan3}}",
         "min": 0,
         "max": "1",
         "colors": [
@@ -1485,42 +1833,11 @@
             "#e6e600",
             "#ca3838"
         ],
-        "seg1": "",
+        "seg1": "0",
         "seg2": "",
-        "x": 1160,
-        "y": 1760,
+        "x": 1540,
+        "y": 1460,
         "wires": []
-    },
-    {
-        "id": "9ecf7d95.58b5b",
-        "type": "ui_switch",
-        "z": "8dd021bb.b57a4",
-        "name": "",
-        "label": "KRAAN 3",
-        "tooltip": "",
-        "group": "66f95b6e.2ba5d4",
-        "order": 9,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "",
-        "style": "",
-        "onvalue": "1",
-        "onvalueType": "num",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "0",
-        "offvalueType": "num",
-        "officon": "",
-        "offcolor": "",
-        "x": 980,
-        "y": 1760,
-        "wires": [
-            [
-                "7b400ebf.bb23"
-            ]
-        ]
     },
     {
         "id": "2fe72f95.a0758",
@@ -1528,13 +1845,13 @@
         "z": "8dd021bb.b57a4",
         "name": "",
         "group": "58c426a1.17a658",
-        "order": 2,
+        "order": 1,
         "width": 0,
         "height": 0,
         "gtype": "donut",
         "title": "KRAAN 4",
         "label": "units",
-        "format": "{{value}}",
+        "format": "{{msg.kraan4}}",
         "min": 0,
         "max": "1",
         "colors": [
@@ -1542,42 +1859,11 @@
             "#e6e600",
             "#ca3838"
         ],
-        "seg1": "",
+        "seg1": "0",
         "seg2": "",
-        "x": 1160,
-        "y": 1800,
+        "x": 1540,
+        "y": 1500,
         "wires": []
-    },
-    {
-        "id": "9c6c245a.ebf158",
-        "type": "ui_switch",
-        "z": "8dd021bb.b57a4",
-        "name": "",
-        "label": "KRAAN 4",
-        "tooltip": "",
-        "group": "58c426a1.17a658",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "",
-        "style": "",
-        "onvalue": "1",
-        "onvalueType": "num",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "0",
-        "offvalueType": "num",
-        "officon": "",
-        "offcolor": "",
-        "x": 980,
-        "y": 1800,
-        "wires": [
-            [
-                "2fe72f95.a0758"
-            ]
-        ]
     },
     {
         "id": "10f2297a.5619e7",
@@ -1589,9 +1875,9 @@
         "width": 5,
         "height": 4,
         "gtype": "donut",
-        "title": "GASVUUR",
+        "title": "GASVUUR OPWARM",
         "label": "STAND",
-        "format": "{{value}}",
+        "format": "{{msg.vuur}}",
         "min": "0",
         "max": "2",
         "colors": [
@@ -1601,34 +1887,9 @@
         ],
         "seg1": "",
         "seg2": "1",
-        "x": 310,
-        "y": 1580,
+        "x": 1680,
+        "y": 1080,
         "wires": []
-    },
-    {
-        "id": "90c56d60.a44d7",
-        "type": "ui_slider",
-        "z": "8dd021bb.b57a4",
-        "name": "",
-        "label": "GASVUUR",
-        "tooltip": "",
-        "group": "4da78f89.fde46",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "outs": "all",
-        "topic": "",
-        "min": 0,
-        "max": "2",
-        "step": 1,
-        "x": 130,
-        "y": 1580,
-        "wires": [
-            [
-                "10f2297a.5619e7"
-            ]
-        ]
     },
     {
         "id": "9082a850.6be0f8",
@@ -1637,7 +1898,7 @@
         "name": "",
         "group": "720d2ed2.786f8",
         "order": 1,
-        "width": 8,
+        "width": 7,
         "height": 3,
         "passthru": false,
         "label": "NEXT",
@@ -1648,8 +1909,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "",
-        "x": 210,
-        "y": 1660,
+        "x": 1890,
+        "y": 980,
         "wires": [
             []
         ]
@@ -1672,8 +1933,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "",
-        "x": 210,
-        "y": 1700,
+        "x": 1890,
+        "y": 1020,
         "wires": [
             []
         ]
@@ -1696,8 +1957,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "",
-        "x": 210,
-        "y": 1740,
+        "x": 1890,
+        "y": 1060,
         "wires": [
             []
         ]
@@ -1707,105 +1968,16 @@
         "type": "ui_text",
         "z": "8dd021bb.b57a4",
         "group": "720d2ed2.786f8",
-        "order": 5,
-        "width": 8,
-        "height": 10,
+        "order": 7,
+        "width": 7,
+        "height": 6,
         "name": "",
-        "label": "BERICHT:",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "x": 400,
-        "y": 1720,
+        "label": "",
+        "format": "{{msg.tekst2}}",
+        "layout": "col-center",
+        "x": 1530,
+        "y": 1260,
         "wires": []
-    },
-    {
-        "id": "aa46fcf9.dfcc2",
-        "type": "http in",
-        "z": "8dd021bb.b57a4",
-        "name": "",
-        "url": "/users",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 160,
-        "y": 1360,
-        "wires": [
-            [
-                "67c32d1d.6c4c34"
-            ]
-        ]
-    },
-    {
-        "id": "d848d2f1.6f433",
-        "type": "http response",
-        "z": "8dd021bb.b57a4",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 1050,
-        "y": 1360,
-        "wires": []
-    },
-    {
-        "id": "31e18c88.ad55e4",
-        "type": "change",
-        "z": "8dd021bb.b57a4",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "headers",
-                "pt": "msg",
-                "to": "{}",
-                "tot": "json"
-            },
-            {
-                "t": "set",
-                "p": "headers.content-type",
-                "pt": "msg",
-                "to": "application/json",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 820,
-        "y": 1360,
-        "wires": [
-            [
-                "d848d2f1.6f433"
-            ]
-        ]
-    },
-    {
-        "id": "67c32d1d.6c4c34",
-        "type": "change",
-        "z": "8dd021bb.b57a4",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "timestamp",
-                "tot": "global"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 460,
-        "y": 1360,
-        "wires": [
-            [
-                "31e18c88.ad55e4"
-            ]
-        ]
     },
     {
         "id": "bfb297d3.6087e8",
@@ -1813,7 +1985,7 @@
         "z": "8dd021bb.b57a4",
         "name": "CPU TEMP",
         "group": "58c426a1.17a658",
-        "order": 11,
+        "order": 10,
         "width": 5,
         "height": 4,
         "gtype": "gage",
@@ -1829,8 +2001,8 @@
         ],
         "seg1": "50",
         "seg2": "70",
-        "x": 1050,
-        "y": 1440,
+        "x": 1130,
+        "y": 1380,
         "wires": []
     },
     {
@@ -1844,8 +2016,8 @@
         "timer": "",
         "oldrc": false,
         "name": "Raspberry CPU Temperature",
-        "x": 400,
-        "y": 1460,
+        "x": 480,
+        "y": 1400,
         "wires": [
             [
                 "c23a69a7.e38218"
@@ -1864,8 +2036,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 690,
-        "y": 1440,
+        "x": 770,
+        "y": 1380,
         "wires": [
             [
                 "bfb297d3.6087e8",
@@ -1894,8 +2066,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 180,
-        "y": 1460,
+        "x": 260,
+        "y": 1400,
         "wires": [
             [
                 "ae5a28ec.a9a238"
@@ -1909,7 +2081,7 @@
         "d": true,
         "name": "",
         "group": "58c426a1.17a658",
-        "order": 10,
+        "order": 11,
         "width": 0,
         "height": 0,
         "label": "RPI CPU TEMP",
@@ -1940,8 +2112,8 @@
         ],
         "outputs": 1,
         "useDifferentColor": false,
-        "x": 1060,
-        "y": 1500,
+        "x": 1140,
+        "y": 1440,
         "wires": [
             []
         ]
@@ -1950,7 +2122,7 @@
         "id": "576c80e1.62114",
         "type": "change",
         "z": "8dd021bb.b57a4",
-        "name": "",
+        "name": "STORE OBJ IN GLOBAL",
         "rules": [
             {
                 "t": "set",
@@ -1965,8 +2137,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 970,
-        "y": 960,
+        "x": 1170,
+        "y": 620,
         "wires": [
             []
         ]
@@ -1977,13 +2149,13 @@
         "z": "8dd021bb.b57a4",
         "name": "",
         "group": "4da78f89.fde46",
-        "order": 6,
+        "order": 21,
         "width": 5,
         "height": 4,
         "gtype": "donut",
         "title": "POMP",
         "label": "STAND",
-        "format": "{{value}}",
+        "format": "{{msg.pomp}}",
         "min": "0",
         "max": "1",
         "colors": [
@@ -1993,7 +2165,7 @@
         ],
         "seg1": "",
         "seg2": "1",
-        "x": 1470,
+        "x": 1690,
         "y": 980,
         "wires": []
     },
@@ -2003,13 +2175,13 @@
         "z": "8dd021bb.b57a4",
         "name": "",
         "group": "4da78f89.fde46",
-        "order": 10,
+        "order": 32,
         "width": 5,
         "height": 4,
         "gtype": "donut",
         "title": "WEERSTAND",
         "label": "STAND",
-        "format": "{{value}}",
+        "format": "{{msg.weerstand}}",
         "min": "0",
         "max": "1",
         "colors": [
@@ -2019,7 +2191,7 @@
         ],
         "seg1": "",
         "seg2": "1",
-        "x": 1440,
+        "x": 1660,
         "y": 1040,
         "wires": []
     },
@@ -2053,7 +2225,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1240,
+        "x": 1460,
         "y": 980,
         "wires": [
             [
@@ -2091,7 +2263,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1240,
+        "x": 1460,
         "y": 1040,
         "wires": [
             [
@@ -2111,7 +2283,7 @@
         "gtype": "donut",
         "title": "KRAAN 5",
         "label": "units",
-        "format": "{{value}}",
+        "format": "{{msg.kraan5}}",
         "min": 0,
         "max": "1",
         "colors": [
@@ -2119,43 +2291,1134 @@
             "#e6e600",
             "#ca3838"
         ],
-        "seg1": "",
+        "seg1": "0",
         "seg2": "",
-        "x": 1160,
-        "y": 1840,
+        "x": 1540,
+        "y": 1540,
         "wires": []
     },
     {
-        "id": "a0b57fd6.543b",
-        "type": "ui_switch",
-        "z": "8dd021bb.b57a4",
-        "name": "",
-        "label": "KRAAN 5",
-        "tooltip": "",
-        "group": "58c426a1.17a658",
-        "order": 5,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "",
-        "topicType": "str",
-        "style": "",
-        "onvalue": "1",
-        "onvalueType": "num",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "0",
-        "offvalueType": "num",
-        "officon": "",
-        "offcolor": "",
-        "animate": true,
-        "x": 980,
-        "y": 1840,
+        "id": "a546d63b.d77db8",
+        "type": "rpi-gpio in",
+        "z": "7c983f7.38453c",
+        "name": "OPWARMVAT TEMP",
+        "pin": "tri",
+        "intype": "tri",
+        "debounce": "25",
+        "read": false,
+        "x": 480,
+        "y": 200,
         "wires": [
             [
-                "a854ff4f.772aa"
+                "7ef183b9.132c7c"
             ]
         ]
+    },
+    {
+        "id": "7809d3b5.95a44c",
+        "type": "rpi-gpio in",
+        "z": "7c983f7.38453c",
+        "name": "MAISCHVAT MOUT TEMP",
+        "pin": "tri",
+        "intype": "tri",
+        "debounce": "25",
+        "read": false,
+        "x": 490,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "24bea8ea.e9b618",
+        "type": "rpi-gpio in",
+        "z": "7c983f7.38453c",
+        "name": "MAISCHVAT WORT TEMP",
+        "pin": "tri",
+        "intype": "tri",
+        "debounce": "25",
+        "read": false,
+        "x": 490,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "adc38941.ecda08",
+        "type": "rpi-gpio in",
+        "z": "7c983f7.38453c",
+        "name": "POMP SWITCH",
+        "pin": "tri",
+        "intype": "tri",
+        "debounce": "25",
+        "read": false,
+        "x": 460,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "466575bb.60134c",
+        "type": "rpi-gpio in",
+        "z": "7c983f7.38453c",
+        "name": "WEERSTAND SWITCH",
+        "pin": "tri",
+        "intype": "tri",
+        "debounce": "25",
+        "read": false,
+        "x": 480,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7a43baed.d2c574",
+        "type": "rpi-gpio in",
+        "z": "7c983f7.38453c",
+        "name": "RODE KNOP",
+        "pin": "tri",
+        "intype": "tri",
+        "debounce": "25",
+        "read": false,
+        "x": 450,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7ef183b9.132c7c",
+        "type": "rpi-ds18b20",
+        "z": "7c983f7.38453c",
+        "topic": "",
+        "array": true,
+        "name": "",
+        "x": 730,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "24de1055.8ccd4",
+        "type": "ds18b20",
+        "z": "7c983f7.38453c",
+        "name": "",
+        "sensorid": "",
+        "timer": "0.2",
+        "x": 470,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "291ef78b.60f2f8",
+        "type": "http in",
+        "z": "8dd021bb.b57a4",
+        "name": "RECEPT_OPSLAAN",
+        "url": "/receptIn",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 260,
+        "y": 200,
+        "wires": [
+            [
+                "5cdd0b1f.016704"
+            ]
+        ]
+    },
+    {
+        "id": "5cdd0b1f.016704",
+        "type": "file",
+        "z": "8dd021bb.b57a4",
+        "name": "",
+        "filename": "pi5/recepten.json",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "utf8",
+        "x": 590,
+        "y": 200,
+        "wires": [
+            [
+                "3dacaab1.e6bd16"
+            ]
+        ]
+    },
+    {
+        "id": "6e2aa957.87d6b8",
+        "type": "http in",
+        "z": "8dd021bb.b57a4",
+        "name": "RECEPT UIT",
+        "url": "/receptUit",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 230,
+        "y": 120,
+        "wires": [
+            [
+                "ba0ab258.95f74"
+            ]
+        ]
+    },
+    {
+        "id": "9e55f7d5.9b8198",
+        "type": "http response",
+        "z": "8dd021bb.b57a4",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1530,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "ce20cc87.9c7ed",
+        "type": "http in",
+        "z": "8dd021bb.b57a4",
+        "name": "",
+        "url": "/users",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 220,
+        "y": 40,
+        "wires": [
+            [
+                "9712a18d.e0407"
+            ]
+        ]
+    },
+    {
+        "id": "24c3b3f3.21843c",
+        "type": "http response",
+        "z": "8dd021bb.b57a4",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1110,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "756a933f.9dc7cc",
+        "type": "change",
+        "z": "8dd021bb.b57a4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "headers",
+                "pt": "msg",
+                "to": "{}",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "headers.content-type",
+                "pt": "msg",
+                "to": "application/json",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 820,
+        "y": 40,
+        "wires": [
+            [
+                "24c3b3f3.21843c"
+            ]
+        ]
+    },
+    {
+        "id": "9712a18d.e0407",
+        "type": "change",
+        "z": "8dd021bb.b57a4",
+        "name": "GET OBJ FROM GLOBAL",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "timestamp",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 40,
+        "wires": [
+            [
+                "756a933f.9dc7cc"
+            ]
+        ]
+    },
+    {
+        "id": "3dacaab1.e6bd16",
+        "type": "http response",
+        "z": "8dd021bb.b57a4",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 930,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "ba0ab258.95f74",
+        "type": "file in",
+        "z": "8dd021bb.b57a4",
+        "name": "",
+        "filename": "pi5/recepten.json",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "utf8",
+        "x": 450,
+        "y": 120,
+        "wires": [
+            [
+                "a44867c2.53cc98"
+            ]
+        ]
+    },
+    {
+        "id": "a44867c2.53cc98",
+        "type": "split",
+        "z": "8dd021bb.b57a4",
+        "name": "",
+        "splt": "",
+        "spltType": "str",
+        "arraySplt": "1",
+        "arraySpltType": "len",
+        "stream": true,
+        "addname": "",
+        "x": 650,
+        "y": 120,
+        "wires": [
+            [
+                "e16bab11.a05348"
+            ]
+        ]
+    },
+    {
+        "id": "16354f6.66272b1",
+        "type": "join",
+        "z": "8dd021bb.b57a4",
+        "name": "make recept array",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "1",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 1110,
+        "y": 120,
+        "wires": [
+            [
+                "85b424de.b76658"
+            ]
+        ]
+    },
+    {
+        "id": "e16bab11.a05348",
+        "type": "json",
+        "z": "8dd021bb.b57a4",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 890,
+        "y": 100,
+        "wires": [
+            [
+                "16354f6.66272b1"
+            ]
+        ]
+    },
+    {
+        "id": "85b424de.b76658",
+        "type": "json",
+        "z": "8dd021bb.b57a4",
+        "name": "",
+        "property": "payload",
+        "action": "str",
+        "pretty": false,
+        "x": 1350,
+        "y": 120,
+        "wires": [
+            [
+                "9e55f7d5.9b8198"
+            ]
+        ]
+    },
+    {
+        "id": "4298cece.9fcee",
+        "type": "http in",
+        "z": "8dd021bb.b57a4",
+        "name": "RECEPT KEUZE",
+        "url": "/receptKeuze",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 240,
+        "y": 320,
+        "wires": [
+            [
+                "1df8b317.fb0f4d",
+                "f5f3479d.673db8"
+            ]
+        ]
+    },
+    {
+        "id": "1df8b317.fb0f4d",
+        "type": "http response",
+        "z": "8dd021bb.b57a4",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 490,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "fd369cf8.a48d1",
+        "type": "function",
+        "z": "8dd021bb.b57a4",
+        "d": true,
+        "name": "Make recipeObject",
+        "func": "//definieer object//\nmsg.recipe={};\nmsg.recipe.steps={};\nmsg.recipe.control={};\nmsg.recipe.control.tekst={};\nmsg.recipe.output={};\n\n//maak big button//\nmsg.recipe.control.bigButton = false;\n\n//initialise kranen en andere output//\nmsg.recipe.output.kraan1 = 0; //(0of1)\nmsg.recipe.output.kraan2 = 0; //(0of1)\nmsg.recipe.output.kraan3 = 0; //(0of1)\nmsg.recipe.output.kraan4 = 0; //(0of1)\nmsg.recipe.output.kraan5 = 0; //(0of1)\nmsg.recipe.output.vuur = 1;   //(0,1,2)\nmsg.recipe.output.weerstand = 1; //(0of1)\nmsg.recipe.output.pomp = 1; //(0of1)\nmsg.recipe.output.tekst1 = 'test';\nmsg.recipe.output.tekst2 = 'hello';\nmsg.recipe.output.audio = '';\nmsg.recipe.output.Timer = '';\n\n//definieer stap 1 vulling//\nconst standaardOpwarmVulling = 50;\nconst standaardOpwarmingGraden = 25;\nconst maischWater = msg.payload.maischWater;\nconst spoelWater = msg.payload.spoelWater;\nconst opwarmWaterLiter = spoelWater + standaardOpwarmVulling;\nconst opwarmWaterGraden = standaardOpwarmingGraden;\nconst moutKlaarmakenArray = msg.payload.mouts;\nconst hopKlaarmakenArray = msg.payload.hops;\n//definieer teksten//\nmsg.recipe.control.tekst.moutTekst = moutKlaarmakenArray.map((mout,i)=> `Schroot soort ${i+1} van ${moutKlaarmakenArray.length}: ${mout.soort} waarvan ${mout.gewicht} kilo.\n`).join('');\nmsg.recipe.control.tekst.hopTekst = hopKlaarmakenArray.map((hop,i)=> `Vul hopsok ${i+1} van ${hopKlaarmakenArray.length}: ${hop.soort}\n`).join('');\n\n\n\nmsg.recipe.control.aantalHop = hopKlaarmakenArray.length;\nmsg.recipe.control.aantalMout = moutKlaarmakenArray.length;\n\nmsg.recipe.steps.step1 = {maischWater, spoelWater, opwarmWaterLiter, opwarmWaterGraden};\n\n//definieer voorwaarde start van step2 = opwarming tot eerste temp//\nconst startTemp = msg.payload.cycli[0];\n\nmsg.recipe.steps.step2 = {startTemp};\n \n// definieer alle cycli (aantal?)//\nconst aantalCycli = msg.payload.cycli.length;\nmsg.recipe.control.aantalCycli = aantalCycli;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 380,
+        "wires": [
+            [
+                "bd38e001.29508",
+                "84e5a6bf.605238"
+            ]
+        ]
+    },
+    {
+        "id": "bd38e001.29508",
+        "type": "function",
+        "z": "8dd021bb.b57a4",
+        "d": true,
+        "name": "step 1: Vullen/opwarmen",
+        "func": "\n\n\n\nlet timer = setInterval( function checkConditionsStep1(){\n    if(false){\n    msg.recipe.output.kraan1=1;\n    msg.recipe.output.vuur=0;\n    msg.recipe.output.weerstand=0;\n    msg.recipe.output.tekst=0;\n    msg.recipe.output.tekst=0;\n    node.send([msg,msg.recipe.output])}\n    \n},1000);\n\n/*return [msg,msg.recipe.output];*/",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 480,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "9b0aa7eb.a27e28",
+        "type": "link in",
+        "z": "8dd021bb.b57a4",
+        "name": "TO OUTPUT",
+        "links": [
+            "a0fdc3dd.47972"
+        ],
+        "x": 1215,
+        "y": 1220,
+        "wires": [
+            [
+                "9e1dc1da.8b0db",
+                "22f02ae1.775f26",
+                "7b400ebf.bb23",
+                "2fe72f95.a0758",
+                "a854ff4f.772aa",
+                "10f2297a.5619e7",
+                "294424b.f8a2adc",
+                "f84d207f.982da",
+                "3b253e68.ab1792",
+                "dc2e2678.4765a8",
+                "a08909c1.936f48"
+            ]
+        ]
+    },
+    {
+        "id": "a0fdc3dd.47972",
+        "type": "link out",
+        "z": "8dd021bb.b57a4",
+        "name": "TO OUTPUT",
+        "links": [
+            "9b0aa7eb.a27e28"
+        ],
+        "x": 2210,
+        "y": 560,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "3b253e68.ab1792",
+        "type": "ui_text",
+        "z": "8dd021bb.b57a4",
+        "group": "720d2ed2.786f8",
+        "order": 5,
+        "width": 7,
+        "height": 6,
+        "name": "",
+        "label": "",
+        "format": "{{msg.tekst1}}",
+        "layout": "col-center",
+        "x": 1530,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "84e5a6bf.605238",
+        "type": "function",
+        "z": "8dd021bb.b57a4",
+        "d": true,
+        "name": "",
+        "func": "\n\n\nasync function promisify(msg){\n    try{\n        await (msg)=>{if(global.push===true){return msg}};\n        await function(msg){ node.send(msg.recipe.output)};\n    }catch(err){\n        \n    }\n}\n\npromisify();",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "53b73bc.78f9cc4",
+        "type": "inject",
+        "z": "ba97d22d.3df94",
+        "name": "Push",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 250,
+        "y": 220,
+        "wires": [
+            [
+                "d749ce99.e49e4"
+            ]
+        ]
+    },
+    {
+        "id": "180cf874.13daa8",
+        "type": "inject",
+        "z": "ba97d22d.3df94",
+        "name": "Release",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 240,
+        "y": 260,
+        "wires": [
+            [
+                "d749ce99.e49e4"
+            ]
+        ]
+    },
+    {
+        "id": "d749ce99.e49e4",
+        "type": "function",
+        "z": "ba97d22d.3df94",
+        "name": "Press/Hold",
+        "func": "var pending = context.get(\"pending\");\nif(msg.payload === 0){\n    if(pending){\n        context.set(\"pending\", false);\n    }else{\n        context.set(\"pending\",true);\n        msg.command = \"hold\";\n        return [msg,null];\n    }\n}else if (msg.payload ===1){\n    if(pending){\n        msg.reset = true;\n        msg.command = \"push\";\n        context.set(\"pending\",false);\n        return [msg,msg];\n    }\n}",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is deployed.\ncontext.set(\"pending\", false)",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 240,
+        "wires": [
+            [
+                "ef66a17e.ec72"
+            ],
+            [
+                "2a6988a6.ef4c48"
+            ]
+        ],
+        "outputLabels": [
+            "Hold",
+            "Push"
+        ]
+    },
+    {
+        "id": "ef66a17e.ec72",
+        "type": "delay",
+        "z": "ba97d22d.3df94",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1200",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 580,
+        "y": 200,
+        "wires": [
+            [
+                "2a6988a6.ef4c48",
+                "d749ce99.e49e4"
+            ]
+        ]
+    },
+    {
+        "id": "2a6988a6.ef4c48",
+        "type": "debug",
+        "z": "ba97d22d.3df94",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "e94468b6.358e18",
+        "type": "debug",
+        "z": "ba97d22d.3df94",
+        "name": "Clicked",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "4bc6d6f0.115498",
+        "type": "inject",
+        "z": "ba97d22d.3df94",
+        "name": "Inject 0",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ZERO",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 210,
+        "y": 440,
+        "wires": [
+            [
+                "ecd423af.746cd"
+            ]
+        ]
+    },
+    {
+        "id": "9130e7a8.87df08",
+        "type": "inject",
+        "z": "ba97d22d.3df94",
+        "name": "Inject 1",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ONE",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 210,
+        "y": 500,
+        "wires": [
+            [
+                "ecd423af.746cd"
+            ]
+        ]
+    },
+    {
+        "id": "3ac673fa.12ef9c",
+        "type": "ui_chart",
+        "z": "ba97d22d.3df94",
+        "name": "Poor man oscilloscope",
+        "group": "27b65cf1.24c8e4",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "Poor man oscilloscope",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "step",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "2",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "x": 600,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ecd423af.746cd",
+        "type": "switch",
+        "z": "ba97d22d.3df94",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lt",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "lt",
+                "v": "2",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 390,
+        "y": 440,
+        "wires": [
+            [
+                "c6658632.447978"
+            ],
+            [
+                "3ac673fa.12ef9c"
+            ]
+        ]
+    },
+    {
+        "id": "b0bd0d59.bc7cf",
+        "type": "debug",
+        "z": "ba97d22d.3df94",
+        "name": "Double clicked",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "625d6be5.811694",
+        "type": "debug",
+        "z": "ba97d22d.3df94",
+        "name": "Pressed",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "c6658632.447978",
+        "type": "button-events",
+        "z": "ba97d22d.3df94",
+        "name": "",
+        "outputs": 3,
+        "inputField": "payload",
+        "inputFieldType": "msg",
+        "outputField": "payload",
+        "outputFieldType": "msg",
+        "downValue": "0",
+        "downValueType": "num",
+        "upValue": "1",
+        "upValueType": "num",
+        "idleValue": "1",
+        "clickedInterval": "2000",
+        "pressedInterval": "5000",
+        "debounceInterval": "200",
+        "events": [
+            {
+                "type": "clicked"
+            },
+            {
+                "type": "pressed"
+            },
+            {
+                "type": "double_clicked"
+            }
+        ],
+        "x": 580,
+        "y": 400,
+        "wires": [
+            [
+                "e94468b6.358e18"
+            ],
+            [
+                "625d6be5.811694"
+            ],
+            [
+                "b0bd0d59.bc7cf"
+            ]
+        ]
+    },
+    {
+        "id": "18fa45e.dd993ba",
+        "type": "debug",
+        "z": "ba97d22d.3df94",
+        "name": "",
+        "active": true,
+        "console": "false",
+        "complete": "false",
+        "x": 1390,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "d649825e.ab13d",
+        "type": "inject",
+        "z": "ba97d22d.3df94",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 990,
+        "y": 600,
+        "wires": [
+            [
+                "3197e4b9.85addc"
+            ]
+        ]
+    },
+    {
+        "id": "3197e4b9.85addc",
+        "type": "func-exec",
+        "z": "ba97d22d.3df94",
+        "name": "",
+        "func": "var exec = child_process.exec('ls -la', (error, stdout, stderr) => { \n    if (error) { \n    console.error(`exec error: ${error}`); \n    return; \n    } \n    console.log(`stdout: ${stdout}`); \n    console.log(`stderr: ${stderr}`); \n    msg.payload = stdout;\n    callback(msg);\n}); ",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1190,
+        "y": 640,
+        "wires": [
+            [
+                "18fa45e.dd993ba"
+            ]
+        ]
+    },
+    {
+        "id": "2be085f6.2cb3ca",
+        "type": "ui_button",
+        "z": "8dd021bb.b57a4",
+        "name": "",
+        "group": "35700b71.03d264",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "button",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "push",
+        "topicType": "global",
+        "x": 1030,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b0c37f7f.d2ffb",
+        "type": "json",
+        "z": "8dd021bb.b57a4",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1330,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e25c01c3.13ce7",
+        "type": "template",
+        "z": "8dd021bb.b57a4",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "[{{payload}}]",
+        "output": "str",
+        "x": 1480,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dc359593.7f0648",
+        "type": "change",
+        "z": "8dd021bb.b57a4",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "\\n",
+                "fromt": "str",
+                "to": ",",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1200,
+        "y": 340,
+        "wires": [
+            [
+                "e25c01c3.13ce7"
+            ]
+        ]
+    },
+    {
+        "id": "2c799cc9.472c54",
+        "type": "function",
+        "z": "8dd021bb.b57a4",
+        "d": true,
+        "name": "RecipeProcessor",
+        "func": "var stepcondition = false;\nvar output = {};\n\n\n\n\n// check if stepconditions are met for proceeding to next step:\nif (msg.process.currentstep < msg.process.totalsteps -1 && !msg.process.finished){\n    stepcondition = true;\n}\nelse {\n    stepcondition = false;\n}\n\n// if last stap is not reached and process is not yet finished: go to next step\nif (stepcondition){\n    msg.process.currentstep++;\n    step = msg.process.currentstep;\n    \n    output = msg.recipe.steps[step].outputs;\n    msg.test = output;//node.send([null,null,test]);\n /*   for (var i = 0; i < msg.recipe.steps[step].outputs.length; i++) {\n        node.send([null,null,msg.recipe.steps[step].outputs[i]]);\n    }*/\n    \n  /*  node.send([null,output,null] /*2de output gaat naar de UI*/*/\n    \n    \n    stepname = { \"stepname\" : msg.recipe.steps[step].doel} /*stepname is het de key, recipe.STEPS[STEP].doel */\n    if (msg.recipe.steps[step].stepconditions.hasOwnProperty(\"time\")){\n        msg.delay = msg.recipe.steps[step].stepconditions.time * 1000; //conversion to milliseconds\n    }\n    else{\n        msg.delay = 0;\n    }\n    node.send([msg,stepname,msg]);\n}\nelse{\n    msg.process.finished = true;\n    msg.process.currentstep = 0;\n    msg.delay = 0;\n    node.send([msg,stepname,null]);\n}\nreturn null;\n\n\n\n/*\nconst receptObject =  {\n    payload: {\n                naam:\"effort fort\",\n                type:\"tripel\",\n                maischWater:50,\n                spoelWater:20,\n                kookTijd:80,\n                hops:[{soort:\"Saaz\",alfa:3.9,gewicht:150,in:5,uit:80},{soort:\"Saaz\",alfa:3.9,gewicht:50,in:15,uit:80},{soort:\"Target\",alfa:12.7,gewicht:100,in:75,uit:80},{soort:\"Aramis\",alfa:6.3,gewicht:60,in:75,uit:80}],\n                mouts:[{soort:\"ECB3\",gewicht:13.85},{soort:\"gerst\",gewicht:1}],\n                cycli:[{temp:62,\"tijd\":45},{temp:72,tijd:20},{temp:78,tijd:5}] \n            },\n    control: {\n                standaardMinimumOpwarmTank = 20,\n                standaardVolumeOpwarmtank = 70,\n                aantalMout: this.payload.mouts.length,\n                aantalHops: this.payload.hops.length,\n                aantalCycli: this.payload.cycli.length,\n                vulOpwarmTank1: this.payload.maischWater + standaardMinimumOpwarmTank,\n                vulOpwarmTank2: this.payload.maischWater\n                moutTekst: this.payload.mouts.foreach((mout,i)=> `mout ${i}: ${mout.soort} gewicht: ${mout.gewicht}`).join('\\n'),\n                hopTekst: this.payload.hops.foreach((hop,i)=> `hop ${i}: ${hop.soort} gewicht: ${hop.gewicht}`).join('\\n'),\n                zuursel: \"\"\n                    \n                    \n                   \n        \n    },\n    steps:[\n    {\n        doel:'vul opwarmtank',\n        boodschap:[`Vul de opwarmTank met ${this.control.vulOpwarmTank1}L water`,``], \n        outputs:\n            {kraan1: 0, \n            kraan2: 0, \n            kraan3: 0, \n            kraan4: 0,\n            kraan5: 0, \n            vuur: 0, \n            weerstand: 0, \n            pomp: 0, \n            boodschap1: this.steps.boodschap[0], \n            boodschap2: this.steps.boodschap[1]},\n        condities: {\"button\"}\n    },\n    {\n        doel:'Maischvat vullen',\n        boodschap:[\"kraan 1 open, zet dan pomp aan\",`Vul maischtank met ${this.payload.maischWater}L, zet dan pomp uit`],  /*vul object aan*/\n        outputs:\n            {kraan1: 1, \n            kraan2: 0, \n            kraan3: 0, \n            kraan4: 0,\n            kraan5: 0, \n            vuur: 0, \n            weerstand: 0, \n            pomp: 0, \n            boodschap1: this.steps.boodschap[0], \n            boodschap2: this.steps.boodschap[1]},\n        condities: [\"button\"]\n    },\n    {\n        doel:'Vul opwarmtank 2de keer',\n        boodschap:[\"Zet de pomp uit en zet kraan1 dicht\",`Vul opwarmTank tot ${this.control.standaardVolumeOpwarmtank}L`], \n        outputs:\n            {kraan1: 0, \n            kraan2: 0, \n            kraan3: 0, \n            kraan4: 0,\n            kraan5: 0, \n            vuur: 0, \n            weerstand: 0, \n            pomp: 0, \n            boodschap1: this.steps.boodschap[0], \n            boodschap2: this.steps.boodschap[1]},\n        condities: [\"button\"]\n    },\n    {\n        doel:'Opwarmen opwarmtank',\n        boodschap:[\"Zet gasvuur aan stand 2\",`Zet weerstand aan`], \n        outputs:\n            {kraan1: 0, \n            kraan2: 0, \n            kraan3: 0, \n            kraan4: 0,\n            kraan5: 0, \n            vuur: 0, \n            weerstand: 0, \n            pomp: 0, \n            boodschap1: this.steps.boodschap[0], \n            boodschap2: this.steps.boodschap[1]},\n        condities: [\"button\"]\n    },\n    {\n        doel:'Opwarmen tot bepaald punt',\n        boodschap:[`Maak klaar: ${this.control.moutTekst}\n        ${this.control.hopTekst}`,`Zet weerstand aan`], \n        outputs:\n            {kraan1: 0, \n            kraan2: 0, \n            kraan3: 0, \n            kraan4: 0,\n            kraan5: 0, \n            vuur: 0, \n            weerstand: 0, \n            pomp: 0, \n            boodschap1: this.steps.boodschap[0], \n            boodschap2: this.steps.boodschap[1]},\n        condities: [\"button\"]\n    }\n    ],\n    process: {\n        currentStep: 0,\n        totalsteps: 0,\n        finished: false\n    }\n}\n*/\n    \n\n\n\n/* STEP */\n\n /*   {\n        doel:'Opwarmen tot bepaald punt',\n        boodschap:[`Maak klaar: ${this.control.moutTekst}\n        ${this.control.hopTekst}`,`Zet weerstand aan`], \n        outputs:\n            {kraan1: 0, \n            kraan2: 0, \n            kraan3: 0, \n            kraan4: 0,\n            kraan5: 0, \n            vuur: 0, \n            weerstand: 0, \n            pomp: 0, \n            boodschap1: this.steps.boodschap[0], \n            boodschap2: this.steps.boodschap[1]},\n        condities: [\"button\"]\n    }\n\n*/\n\n",
+        "outputs": 3,
+        "noerr": 9,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1170,
+        "y": 460,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "9b3aa0b4.07eb",
+        "type": "inject",
+        "z": "8dd021bb.b57a4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1460,
+        "y": 720,
+        "wires": [
+            [
+                "eeed1d6e.11893"
+            ]
+        ]
+    },
+    {
+        "id": "eeed1d6e.11893",
+        "type": "function",
+        "z": "8dd021bb.b57a4",
+        "name": "",
+        "func": "const receptTestObject = {\n    payload: {\n                naam:\"effort fort\",\n                type:\"tripel\",\n                maischWater:50,\n                spoelWater:20,\n                kookTijd:80,\n                hops:[{soort:\"Saaz\",alfa:3.9,gewicht:150,in:5,uit:80},{soort:\"Saaz\",alfa:3.9,gewicht:50,in:15,uit:80},{soort:\"Target\",alfa:12.7,gewicht:100,in:75,uit:80},{soort:\"Aramis\",alfa:6.3,gewicht:60,in:75,uit:80}],\n                mouts:[{soort:\"ECB3\",gewicht:13.85},{soort:\"gerst\",gewicht:1}],\n                cycli:[{temp:62,\"tijd\":45},{temp:72,tijd:20},{temp:78,tijd:5}] \n            },\n    control: {\n                standaardMinimumOpwarmTank :20,\n                standaardVolumeOpwarmtank : 70,\n                aantalMout: function(){return this.payload.mouts.length},\n                aantalHops: function(){return this.payload.hops.length},\n                aantalCycli: function(){return this.payload.cycli.length},\n                vulOpwarmTank1: function(){return this.payload.maischWater + standaardMinimumOpwarmTank},\n                vulOpwarmTank2: function(){return this.payload.maischWater},\n                moutTekst: function(){ return this.payload.mouts.foreach((mout,i)=> `mout ${i}: ${mout.soort} gewicht: ${mout.gewicht}`).join('\\n')},\n                hopTekst: function(){ return this.payload.hops.foreach((hop,i)=> `hop ${i}: ${hop.soort} gewicht: ${hop.gewicht}`).join('\\n')},\n                zuursel: \"\"\n    },\n    steps:[\n    {\n        doel:'vul opwarmtank',\n        boodschap:[`Vul de opwarmTank met ${this.control.vulOpwarmTank1}}L water`,``], \n        outputs:\n            {\n                kraan1: 0, \n            kraan2: 0, \n            kraan3: 0, \n            kraan4: 0,\n            kraan5: 0, \n            vuur: 0, \n            weerstand: 0, \n            pomp: 0, \n            boodschap1: '', \n            boodschap2: ''\n            },\n        condities: [\"button\"]\n    },\n    {\n        doel:'Maischvat vullen',\n        boodschap:[\"kraan 1 open, zet dan pomp aan\",`Vul maischtank met ${function(){return this.payload.maischWater()}}L, zet dan pomp uit`],  /*vul object aan*/\n        outputs:\n            {kraan1: 1, \n            kraan2: 0, \n            kraan3: 0, \n            kraan4: 0,\n            kraan5: 0, \n            vuur: 0, \n            weerstand: 0, \n            pomp: 0, \n            boodschap1: '', \n            boodschap2: ''\n            },\n        condities: [\"button\"]\n    },\n    {\n        doel:'Vul opwarmtank 2de keer',\n        boodschap:[\"Zet de pomp uit en zet kraan1 dicht\",`Vul opwarmTank tot ${function(){return this.control.standaardVolumeOpwarmtank}}L`], \n        outputs:\n            {kraan1: 0, \n            kraan2: 0, \n            kraan3: 0, \n            kraan4: 0,\n            kraan5: 0, \n            vuur: 0, \n            weerstand: 0, \n            pomp: 0, \n            boodschap1: function(){return this.steps.boodschap[0]}, \n            boodschap2: function(){return this.steps.boodschap[1]}\n            },\n        condities: [\"button\"]\n    },\n    {\n        doel:'Opwarmen opwarmtank',\n        boodschap:[\"Zet gasvuur aan stand 2\",`Zet weerstand aan`], \n        outputs:\n            {kraan1: 0, \n            kraan2: 0, \n            kraan3: 0, \n            kraan4: 0,\n            kraan5: 0, \n            vuur: 0, \n            weerstand: 0, \n            pomp: 0, \n            boodschap1: function(){return this.steps.boodschap[0]}, \n            boodschap2: function(){return this.steps.boodschap[1]}\n            },\n        condities: [\"button\"]\n    },\n    {\n        doel:'Opwarmen tot bepaald punt',\n        boodschap:[`Maak klaar: ${function(){return this.control.moutTekst()}}\n        ${function(){return this.control.hopTekst()}}`,`Zet weerstand aan`], \n        outputs:\n            {kraan1: 0, \n            kraan2: 0, \n            kraan3: 0, \n            kraan4: 0,\n            kraan5: 0, \n            vuur: 0, \n            weerstand: 0, \n            pomp: 0, \n            boodschap1: function(){return this.steps.boodschap[0]}, \n            boodschap2: function(){return this.steps.boodschap[1]}\n                \n            },\n        condities: [\"button\"]\n    }\n    ],\n    process: {\n        currentStep: 0,\n        totalsteps: 0,\n        finished: false\n    }\n};\n\nreceptTestObject.steps[0].boodschap1 = receptTestObject.steps[0].boodschap[0];\nreceptTestObject.steps[0].boodschap2 = receptTestObject.steps[0].boodschap[1];\n\nreturn receptTestObject;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1750,
+        "y": 720,
+        "wires": [
+            [
+                "95f96542.1d9ba8"
+            ]
+        ]
+    },
+    {
+        "id": "95f96542.1d9ba8",
+        "type": "debug",
+        "z": "8dd021bb.b57a4",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2020,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "a08909c1.936f48",
+        "type": "ui_gauge",
+        "z": "8dd021bb.b57a4",
+        "name": "",
+        "group": "4da78f89.fde46",
+        "order": 11,
+        "width": 5,
+        "height": 4,
+        "gtype": "donut",
+        "title": "GASVUUR KOOK",
+        "label": "STAND",
+        "format": "{{msg.vuur}}",
+        "min": "0",
+        "max": "2",
+        "colors": [
+            "#00b500",
+            "#ffa200",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "1",
+        "x": 1670,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "f5f3479d.673db8",
+        "type": "debug",
+        "z": "8dd021bb.b57a4",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 570,
+        "y": 260,
+        "wires": []
     }
 ]
